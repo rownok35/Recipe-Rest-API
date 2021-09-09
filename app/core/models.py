@@ -87,4 +87,4 @@ class Recipe(models.Model):
     image = models.ImageField(null=True, upload_to=recipe_image_file_path)
 
     def __str__(self):
-        return self.title
+        return self.title 
